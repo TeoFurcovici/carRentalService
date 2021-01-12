@@ -104,11 +104,11 @@
         android:layout_height="30dp"
         android:layout_marginStart="135dp"
         android:layout_marginLeft="135dp"
-        android:layout_marginTop="436dp"
+        android:layout_marginBottom="51dp"
         android:ems="10"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="@+id/passInsert"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/loginBtn"
